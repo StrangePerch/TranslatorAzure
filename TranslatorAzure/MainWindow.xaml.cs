@@ -33,7 +33,7 @@ namespace TranslatorAzure
         private static readonly string Endpoint = "https://api.cognitive.microsofttranslator.com/";
 
         private static readonly SpeechConfig SpeechConfig =
-            SpeechConfig.FromSubscription("8f470d86d7c9409985e96d7536f708bb", "eastus");
+            SpeechConfig.FromSubscription("SubscriptionKey", "eastus");
 
         // Add your location, also known as region. The default is global.
         // This is required if using a Cognitive Services resource.
