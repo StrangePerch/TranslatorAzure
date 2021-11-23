@@ -29,7 +29,7 @@ namespace TranslatorAzure
     /// </summary>
     public partial class MainWindow : Window
     {
-        private static readonly string SubscriptionKey = "d90d4655d8494c409d3bb3458aad0f6e";
+        private static readonly string SubscriptionKey = "<SubscriptionKey>";
         private static readonly string Endpoint = "https://api.cognitive.microsofttranslator.com/";
 
         private static readonly SpeechConfig SpeechConfig =
